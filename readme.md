@@ -27,6 +27,10 @@ Some scenarios with a bit more explicit commands
 ```bash
 cd ~/projects/myproject
 git init
+touch .gitignore
+> use http://www.gitignore.io
+git add .gitignore
+git commit -m 'added gitignore'
 git add .
 git commit -m 'initial commit'
 ```
