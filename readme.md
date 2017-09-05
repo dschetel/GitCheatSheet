@@ -76,6 +76,10 @@ git lg
 ```bash
 git diff --word-diff
 ```
+#### See all staged changes done to a local repo
+```bash
+git diff --cached
+```
 
 #### List every changed file between two commits
 
